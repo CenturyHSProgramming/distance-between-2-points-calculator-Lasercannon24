@@ -7,6 +7,11 @@
 
 # Define Function below
 # be sure to return an integer
+def calculateDistanceBetween (x1, y1, x2, y2):
+    distance = (x2-x1)**2 + ((y2-y1)**2)
+    distance = distance ** (0.5)
+    distance = round(distance, 2)
+    return distance
 
 if __name__ == '__main__':
     # Call the function in here if you want to test it
